@@ -1,18 +1,17 @@
 Source: dde-network-utils
 Section: libs
 Priority: optional
-Maintainer: listenerri <listenerri@gmail.com>
+Maintainer: Arun Kumar Pariyar <openarungeek@gmail.com>
 Build-Depends:
- debhelper-compat (= 11),
- libdframeworkdbus-dev (>= 1.0.2),
+ debhelper-compat (= 13),
+ libdframeworkdbus-dev (>= 5.4~),
  libgsettings-qt-dev,
+ libgtest-dev,
  pkg-config,
- qtbase5-dev,
  qt5-qmake,
+ qtbase5-dev,
  qttools5-dev-tools,
- libgsettings-qt-dev,
- libgtest-dev
-Standards-Version: 3.9.8
+Standards-Version: 4.5.1
 Homepage: https://github.com/linuxdeepin/dde-network-utils
 
 Package: libdde-network-utils
