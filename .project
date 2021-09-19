@@ -1,0 +1,7 @@
+{
+    "type": "homebrew" | "opensource",
+    "3rdparty": [],
+    "ignore": ["*.md", "./debian", "*.pro", "*.ts"],
+    "license": ["LICENSE"],
+    "importantFile": ["dde-network-utils/*.h"]
+}
